@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c152488769.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="cantainer">
+        <nav> 
+            <img src="images/ico.png.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>An e-sport Gamer</p>
+            <h1>Hi, i'm<span> Shourya</span><br>Bansal from India</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user-1.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Shourya Bansal. I love playing games, traveling, and going outside for adventure.
+                    I mostly play BGMI and Asphalt 9 with friends. I also do coding in my free time for fun and as a side skill.
+                    I love to study astronomy and meanwhile, I also love physics.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('in gaming life')">IN Gaming life</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Gaming</span><br>Assaulter</li>
+                        <li><span>Traveling</span><br>Exploring new places</li>
+                        <li><span>Education</span><br>Good in Mathematics and Physics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>in Gaming</span><br>8 years</li>
+                        <li><span>coding</span><br>beginner</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>studying in school</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="in gaming life">
+                    <ul>
+                        <li><span>About</span><br>Hey! everyone i am shourya. i'm mostly known as Dynamïtë in gaming life.I play with four-fingers and with gyro scope-on</li>
+                        <li><span>clan</span><br>Dynïtë</li>
+                        <li><span>IN game name</span><br>Dynamïtë</li>
+                        <li><span>BGMI-ID</span><br>55554441822</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Not available</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>App Design</h2>
+                <p>Not available</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Gaming with me</h2>
+                <p>available</p>
+                <a href="#" id="gaming-learn-more">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- ----------------portfolio---------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/be.png.jpg">
+                <div class="layer">
+                    <h3>AI voice assistant</h3>
+                    <p>It makes your daily life easy</p>
+                    <a href="ai-assistant.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png.jpg" >
+                <div class="layer">
+                    <h3>music App</h3>
+                    <p>Listen music peacefully</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png.jpg" >
+                <div class="layer">
+                    <h3>Social media Web</h3>
+                    <p>Connect with your friends</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------Contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>workwithshourya@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100065534327030&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/00.shourya?igsh=MXQwbjFqOXFmeHoyeg=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------footer---------------- -->
+<div class="copyright">
+    <p>copyright © shourya.made with <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxFp_qN6EVc5g_nLX78AkgZXq1mVAwOI3f1H95iOwP6UF2xjTTWuUvDH8LF8gqtNIXg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    document.getElementById("gaming-learn-more").addEventListener("click", function(event) {
+        event.preventDefault();
+        
+        // Scroll to the contact section
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+
+        // Display the message
+        const msg = document.getElementById("msg");
+        msg.innerHTML = "Fill details and tell why I should play with you and give your BGMI name and ID in your message box.";
+        msg.style.color = "#ff004f"; // Change color to red
+        
+        // Hide the message after 10 seconds
+        setTimeout(function() {
+            msg.innerHTML = "";
+        }, 10000);
+    });
+</script>
+</body>
+</html>
